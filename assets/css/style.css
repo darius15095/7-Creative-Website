@@ -1,0 +1,547 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    font-family: 'Sora';
+}
+
+.container {
+    max-width: 1320px;
+    margin: auto;
+}
+
+body {
+    background-color: #080d10;
+}
+
+.flex {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.text-center {
+    text-align: center;
+}
+
+
+.col-1 {
+    width: 8.33%;
+}
+
+.col-2 {
+    width: 16.66%;
+}
+
+.col-3 {
+    width: 25%;
+}
+
+.col-4 {
+    width: 33.33%;
+}
+
+.col-5 {
+    width: 41.66%;
+}
+
+.col-6 {
+    width: 50%;
+}
+
+.col-7 {
+    width: 58.33%;
+}
+
+.col-8 {
+    width: 66.66%;
+}
+
+.col-9 {
+    width: 75%;
+}
+
+.col-10 {
+    width: 83.33%;
+}
+
+.col-11 {
+    width: 91.66%;
+}
+
+.col-12 {
+    width: 100%;
+}
+
+*[class*="col-"] {
+    padding: 0px 12px;
+}
+
+
+.gap-10 {
+    gap: 10px;
+}
+
+.gap-20 {
+    gap: 20px;
+}
+
+.gap-30 {
+    gap: 30px;
+}
+
+.icons ul li a {
+    color: white;
+}
+
+.justify-content {
+    justify-content: space-between;
+}
+
+li {
+    display: inline-block;
+    margin: 10px;
+}
+
+
+
+.header {
+    padding: 20px;
+    background-color: #05061a;
+    align-items: center;
+    color: white;
+    top: 0;
+    border-color: white;
+    position: fixed;
+    box-shadow: 10px black;
+    width: 100%;
+    z-index: 100;
+}
+
+.desc {
+    color: white;
+    font-size: 18px;
+    align-items: center;
+    margin-left: 10px;
+}
+
+.search {
+    color: black;
+    align-items: center;
+}
+
+.align-items {
+    align-items: center;
+}
+
+.sig {
+    background-color: #00dc94;
+    border-radius: 50px;
+    margin-left: auto;
+    border: 0;
+    font-size: 16px;
+    padding: 15px 10px;
+    color: black;
+    align-items: center;
+}
+
+.sig:hover {
+    box-shadow: 0px 0px 15px #00dc94;
+    transition: all 0.5s linear;
+    cursor: pointer;
+}
+
+
+.logo {
+    width: 50px;
+    margin-left: -230px;
+}
+
+.hero-section {
+    background-image: url("https://the7.io/elementor-creative-dark/wp-content/uploads/sites/108/2024/06/art-top-cropp.jpg");
+    height: 100vh;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.cent-img {
+    padding-bottom: 10px;
+    margin-top: 200px;
+}
+
+.exp {
+    font-size: 140px;
+    color: white;
+    text-align: center;
+    font-weight: bold;
+    text-transform: uppercase;
+    padding-bottom: 10px;
+}
+
+.wbd {
+    color: white;
+    font-size: 20px;
+    font-weight: 400;
+    margin-top: 30px;
+    word-spacing: 10px;
+    letter-spacing: 2px;
+}
+
+.agency {
+    width: 100%;
+    color: white;
+}
+
+.degital {
+    padding-top: 100px;
+    font-size: 51px;
+    text-align: center;
+}
+
+.susp {
+    font-size: 30px;
+    margin-top: 40px;
+    text-align: center;
+    color: gray;
+}
+
+.line-padding {
+    margin-top: 150px;
+}
+
+.line {
+    width: 250px;
+    height: 1px;
+    background-color: grey;
+    border-radius: 20px;
+}
+
+.clock {
+    font-size: 30px;
+    color: #00dc94;
+    margin-top: 10px;
+}
+
+.exprience {
+    color: white;
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+.box-padding {
+    margin-top: 150px;
+}
+
+.wdd {
+    width: 280px;
+    height: 280px;
+    border-radius: 40px 0px 40px 0px;
+}
+
+.web {
+    color: white;
+    margin-top: 20px;
+    font-weight: 100px;
+}
+
+.lm {
+    color: #8459fd;
+    font-size: 18px;
+    margin-top: 15px;
+    font-weight: 200;
+}
+
+.business {
+    padding-top: 150px;
+}
+
+.box {
+    padding: 50px;
+    border-radius: 40px 0px 40px 0px;
+    background: radial-gradient(at top left, #5a3cb2 0%, #16045E 100%);
+}
+
+.looking-forward {
+    color: #00dc93;
+    font-weight: 400;
+}
+
+.next-level {
+    font-size: 35px;
+    margin-top: 20px;
+    font-weight: 400;
+    color: white;
+}
+
+.sig-3 {
+    background-color: #00dc94;
+    border-radius: 50px;
+    margin-left: auto;
+    border: 0;
+    font-size: 18px;
+    padding: 15px 30px;
+    color: black;
+}
+
+.sig-3:hover {
+    box-shadow: 0px 0px 20px #00dc94;
+    transition: all 0.5s linear;
+    cursor: pointer;
+}
+
+.clients {
+    color: #00dc94;
+    text-align: center;
+    margin-top: 150px;
+    font-weight: 300;
+    font-size: 30px;
+    word-spacing: 3px;
+    letter-spacing: 5;
+}
+
+.man {
+    border-radius: 50%;
+    width: 120px;
+    margin-top: 50px;
+}
+
+.alex {
+    color: white;
+    margin-top: 80px;
+    padding-left: 20px;
+}
+
+.seven {
+    color: white;
+    padding-top: 10px;
+    display: block;
+    word-spacing: 3px;
+}
+
+.black {
+    display: flex;
+}
+
+.man-2 {
+    color: white;
+    padding-top: 20px;
+    font-size: 20px;
+    line-height: 2;
+}
+
+.cases {
+    color: white;
+    text-align: center;
+    margin-top: 50px;
+    font-size: 50px;
+    font-weight: 300;
+}
+
+.neon {
+    width: 393.33px;
+    height: 393.33px;
+    border-radius: 40px 0px 40px 0px;
+    margin-top: 60px;
+}
+
+.lights {
+    color: white;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-weight: 400;
+}
+
+.digital {
+    color: white;
+    font-weight: 400;
+    color: grey;
+}
+
+.painting {
+    width: 393.33px;
+    height: 393.33px;
+    border-radius: 40px 0px 40px 0px;
+    margin-top: 60px;
+}
+
+.view {
+    color: #5a3cb2;
+    text-align: right;
+    word-spacing: 3px;
+    margin-top: 50px;
+}
+
+.proud {
+    color: #00DC93;
+    margin-top: 100px;
+    text-align: center;
+    font-weight: 300;
+    word-spacing: 3px;
+    letter-spacing: 3px;
+    font-size: 19px;
+    margin-bottom: 80px;
+}
+
+.latest {
+    color: white;
+    margin-top: 150px;
+    text-align: center;
+    font-size: 37px;
+    font-weight: 400;
+}
+
+.ways {
+    width: 200px;
+    height: 200px;
+    border-radius: 40px 0px 40px 0px;
+    margin-top: 50px;
+}
+
+.lorem {
+    color: white;
+    padding-left: 30px;
+    font-size: 25px;
+    padding-bottom: 20px;
+}
+
+.january {
+    color: white;
+    padding-left: 30px;
+    color: grey;
+    word-spacing: 2px;
+}
+
+.cases {
+    font-size: 16px;
+    color: #5a3cb2;
+    text-align: right;
+    word-spacing: 3px;
+    margin-top: 50px;
+}
+
+.line-2 {
+    width: 100%;
+    height: 1px;
+    background-color: grey;
+    margin-top: 100px;
+}
+
+.f-logo {
+    width: 240px;
+    height: 51.23;
+    margin-top: 120px 0px 0px;
+    padding: 100px 0 20px;
+}
+
+.us {
+    color: grey;
+    font-size: 14px;
+    margin-top: 50px;
+}
+
+.num {
+    color: white;
+    margin-top: 20px;
+    font-size: 18px;
+    margin-bottom: -20px;
+}
+
+.f-sig {
+    background-color: transparent;
+    border-radius: 50px;
+    border: 0;
+    color: #00dc94;
+    font-size: 18px;
+    padding: 10px;
+    text-align: center;
+    margin-top: 50px;
+    border: 1px #00DC93 solid;
+    transition: 0.3s all linear;
+}
+
+.f-sig:hover {
+    background-color: #00DC93;
+    color: black;
+    cursor: pointer;
+    box-shadow: 0px 0px 25px #00dc94;
+}
+
+.comp {
+    color: white;
+    font-size: 20px;
+    padding-top: 70px;
+}
+
+.blog li {
+    color: white;
+    font-size: 16px;
+    color: grey;
+    display: block;
+    margin: 0;
+    margin-top: 20px;
+}
+
+.connect-2 {
+    color: white;
+    font-size: 20px;
+    margin-top: 70px;
+    padding-bottom: 40px;
+}
+
+.position {
+    position: relative;
+}
+
+.f-search {
+    width: 100%;
+    height: 52px;
+    background-color: transparent;
+    color: #8a9ba9;
+    border: 1px white solid;
+    border: none;
+    font-size: 15px;
+    font-weight: 600;
+    padding: 12px 20px;
+}
+
+.join {
+    color: #8a9ba9;
+    background-color: transparent;
+    width: 82.03px;
+    height: 52px;
+    border: none;
+    font-size: 15px;
+    position: absolute;
+    right: 0px;
+}
+
+.padd {
+    padding-bottom: 100px;
+}
+
+.top-button {
+    height: 50px;
+    width: 50px;
+    background-color: transparent;
+    border: 1px #00dc93 solid;
+    position: absolute;
+    right: 0;
+    text-align: center;
+    border-radius: 50%;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    transition: all 0.1s linear;
+    margin-right: 20px;
+    color: #00DC93;
+    font-size: 25px;
+}
+
+html {
+    scroll-behavior: unset;
+}
